@@ -1,3 +1,7 @@
-body {
-    background-color: rgb(235, 9, 9);
+.cartao {
+    margin: 1rem 1rem;
+    background-color: rgb(157, 177, 112);
+}
+#container {
+    display: flex;
 }
