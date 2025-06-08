@@ -1,12 +1,12 @@
 :root {
-    --text-color: #DBE4EF;
-    --card-front-color: #144480;
-    --card-back-color: #00F4BF;
+    --text-color: #212421;
+    --card-front-color: #377037;
+    --card-back-color: #377037;
 }
 
 body {
-    background: url('img/bg-desktop.webp');
-    font-family: Bai Jamjuree;
+    background-color: darkslategrey ;
+
 }
 
 #container {
@@ -27,7 +27,7 @@ body {
 .cartao__conteudo {
     background-color: var(--card-front-color);
     text-align: center;
-    /* background-color: aquamarine; */
+    background-color:#377037;
     height: 100%;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
@@ -96,21 +96,3 @@ footer p {
     margin-top: 0.5rem;
 }
 
-@media (max-width: 560px) {
-    
-    body {
-        background: url('img/bg-mobile.webp'), no-repeat cover;
-    }
-
-    .cartao {
-        flex: 1 0 calc(100% - 1rem)
-    }
-
-    .cartao__conteudo h3 {
-        font-size: 3vw;
-    }
-
-    .cartao__conteudo p {
-        font-size: 3.8vw;
-    }
-}
