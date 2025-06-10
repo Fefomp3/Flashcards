@@ -20,6 +20,7 @@ main {
     width: 18rem;
     height: 20rem;
     perspective: 1000px;
+    gap: 2rem;
 }
 
 .cartao__conteudo {
@@ -64,7 +65,7 @@ main {
 }
 
 /* Cabeçalho */
-.cartao__conteudo h3 {
+.cartao h3 {
     background-color: rgba(42, 105, 23, 0.486);
     color: aquamarine;
     text-align: center;
@@ -91,3 +92,10 @@ main {
     text-align: center;
     font-family: inherit;
 }
+footer {
+  position:fixed;
+  bottom: 0%;
+  left: 45%;
+  background-color: navy;
+  display: block;
+  color: white;
