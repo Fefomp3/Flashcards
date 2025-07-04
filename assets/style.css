@@ -76,12 +76,12 @@ body {
 
 .cartao__conteudo__resposta {
     transform: rotateY(180deg);
-    background-color: rgb(251, 255, 0);
+    background-color: #98e2dfd8;
     border: 4px solid var(--card-back-color);
 }
 
 footer {
-    background-color: blue;
+    background-color: #cbcbea;
     color: black;
     position: fixed;
     bottom: 0;
@@ -96,10 +96,6 @@ footer p {
 }
 
 @media (max-width: 560px) {
-    
-    body {
-        background: url('img/bg-mobile.webp'), no-repeat cover;
-    }
 
     .cartao {
         flex: 1 0 calc(100% - 1rem)
