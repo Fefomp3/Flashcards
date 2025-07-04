@@ -1,12 +1,12 @@
 :root {
-    --text-color: #a6ff00;
-    --card-front-color: #880000;
-    --card-back-color: #f46e00;
+    --text-color: hsla(60, 4%, 5%, 0.849);
+    --card-front-color: #214e28;
+    --card-back-color: #2b661c;
 }
 
 body {
-    background: url('img/espaço.jpg');
-    font-family: Bai Jamjuree;
+    background:color(srgb red green blue);
+   
 }
 
 #container {
