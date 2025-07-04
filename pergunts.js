@@ -36,8 +36,8 @@ criaCartao(
 
 criaCartao(
     'Quimica',
-    'Qual é o nome do elemento químico n°110',
-    'O nome do elemento é Darmstádtio.'
+    'Quais as ligações existentes entre átomos',
+    'Ligação iônica, ligação covalente e ligação metálica.'
 )
 
 criaCartao(
