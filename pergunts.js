@@ -29,9 +29,9 @@ criaCartao(
 )
 
 criaCartao(
-    'História',
-    'Quando começou a revolução industrial',
-    'Na segunda metade do século XVIII.'
+    'Física',
+    'O que é um gás ideal',
+    'É um modelo teórico que descreve um gás cujas partículas não interagem entre si.'
 )
 
 criaCartao(
